@@ -118,13 +118,165 @@ header{
                       }
                   }
             };
+            .list2{
+                  .app{
+                       width: 102px;
+                       height:107px;
+                       background:white;
+                       font-size: 12px;
+                       color:#5a5a5a;
+                       border: 1px solid #dcdcdc;
+                       border-top:none;
+                       position: absolute;
+                       top:32px;
+                       left:0px;
+                       display: none;
+                        dt{
+                           height:77px;
+                           margin-top:10px;
+                           img{
+                                display: block;
+                                margin: 0 auto;
+                            }
+                        };
+                        dd{
+                            text-align: center;
+                            
+                        }   
+                  };
+                  &:hover{
+                      border: 1px solid #dcdcdc;
+                      background: white;
+                      border-bottom: none;
+                      span{
+                          background:url(../images/section-tigger.png) no-repeat -16px -28px;
+                      };
+                      .app{
+                          display: block;
+                      }
+                  }
+            };
+            .list3{
+                  .app{
+                       width: 102px;
+                       height:107px;
+                       background:white;
+                       font-size: 12px;
+                       color:#5a5a5a;
+                       border: 1px solid #dcdcdc;
+                       border-top:none;
+                       position: absolute;
+                       top:32px;
+                       left:0px;
+                       display: none;
+                        dt{
+                           height:77px;
+                           margin-top:10px;
+                           img{
+                                display: block;
+                                margin: 0 auto;
+                            }
+                        };
+                        dd{
+                            text-align: center;
+                            
+                        }   
+                  };
+                  &:hover{
+                      border: 1px solid #dcdcdc;
+                      background: white;
+                      border-bottom: none;
+                      span{
+                          background:url(../images/section-tigger.png) no-repeat -16px -28px;
+                      };
+                      .app{
+                          display: block;
+                      }
+                  }
+            };
             .list4{
                   width: 92px;
+                  .select1{
+                       width: 92px;
+                       height:80px;
+                       background:white;
+                       font-size: 12px;
+                       color:#5a5a5a;
+                       border: 1px solid #dcdcdc;
+                       border-top:none;
+                       position: absolute;
+                       top:32px;
+                       left:0px;
+                       display: none;
+                        li{
+                            margin-left:12px;
+                            height: 26px;
+                            line-height: 26px;
+                            &:hover{
+                                color:red;
+                            }
+                        }    
+                  };
+                  p{
+                        &:hover{
+                            color:red;
+                        }
+
+                  };
+                  &:hover{
+                      border: 1px solid #dcdcdc;
+                      background: white;
+                      border-bottom: none;
+                      span{
+                          background:url(../images/section-tigger.png) no-repeat -16px -28px;
+                      };
+                      .select1{
+                          display: block;
+                      }
+                  }
             };
             .list5{
                   width: 62px;
                   border:0;
                   background-image:none ;
+                  .select2{
+                       width: 230px;
+                       height:260px;
+                       background:white;
+                       font-size: 12px;
+                       color:#5a5a5a;
+                       border: 1px solid #dcdcdc;
+                       border-top:none;
+                       position: absolute;
+                       top:32px;
+                       right:0px;
+                       display: none;
+                        li{
+                            margin-left:12px;
+                            height: 32px;
+                            line-height: 32px;
+                            &:hover{
+                                color:red;
+                            }
+                        }    
+                  };
+                  p{
+                        &:hover{
+                            color:red;
+                        }
+
+                  };
+                  &:hover{
+                      border: 1px solid #dcdcdc;
+                      background: white;
+                      border-bottom: none;
+                      span{
+                          background:url(../images/section-tigger.png) no-repeat -16px -28px;
+                      };
+                      .select2{
+                          display: block;
+                      }
+                  }
             }
         }
     }
