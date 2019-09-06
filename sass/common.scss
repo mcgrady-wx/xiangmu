@@ -115,6 +115,7 @@ header{
                       };
                       .select{
                           display: block;
+                          z-index: 999;
                       }
                   }
             };
@@ -153,6 +154,7 @@ header{
                       };
                       .app{
                           display: block;
+                          z-index: 999;
                       }
                   }
             };
@@ -191,6 +193,7 @@ header{
                       };
                       .app{
                           display: block;
+                          z-index: 999;
                       }
                   }
             };
@@ -232,6 +235,7 @@ header{
                       };
                       .select1{
                           display: block;
+                          z-index: 999;
                       }
                   }
             };
@@ -275,9 +279,274 @@ header{
                       };
                       .select2{
                           display: block;
+                          z-index: 999;
                       }
                   }
             }
         }
     }
 }
+//search
+
+.search{
+    height: 110px;
+    width: 100%;
+    background: #f5f5f5;
+    .container{
+        width: 1200px;
+        height: 110px;
+        padding-left: 0px;
+        position: relative;
+        .logo{
+            width:210px;
+            height: 99px;
+            float: left;
+            margin-top: 7px;
+        };
+        .searchbar{
+            width: 480px;
+            height: 38px;
+            margin-left: 130px;
+            margin-top: 30px;
+            float: left;
+            input{
+                float: left;
+            };
+            .select1{
+                width: 382px;
+                height: 38px;
+                padding-left: 10px;
+                border: 3px solid #da0055;
+                outline: none;
+            }
+            .searchBtn{
+                width: 98px;
+                height: 38px;
+                background: url(../images/common-thumb.png) no-repeat -31px -4px;
+                border: none;
+            }
+        };
+        .tag{
+            width: 355px;
+            height: 28px;
+            line-height: 28px;
+            position: absolute;
+            left:340px;
+            bottom: 14px;
+            font-size: 12px;
+            a{
+                color:#888888;
+                text-decoration: none;
+                margin-right:7px;
+            }
+        };
+        .cart{
+            display: block;
+            float: right;
+            width: 248px;
+            height: 32px;
+            margin-top: 30px;
+            text-decoration: none;
+            background: #ffda74 url(../images/common-thumb.png) no-repeat -238px -4px;
+            .cart1{
+                display: block;
+                width: 175px;
+                height: 28px;
+                background: white;
+                font-size: 12px;
+                text-align: center;
+                line-height: 28px;
+                margin-top: 2px;
+                margin-left: 70px;
+                color: #444444;
+                b{
+                    color:red;
+                }
+            }
+        }
+    }
+}
+
+//nav
+nav{
+    width:100%;
+    height: 40px;
+    background: black;
+    .nav1{
+        width: 1200px;
+        height: 40px;
+        margin: 0 auto;
+        position: relative;
+        ul{
+            font-size: 14px;
+            li{
+                float: left;
+                a{
+                    color:white;
+                    text-decoration: none;
+                };
+                &:nth-child(1){
+                    width:100px;
+                    height:40px;
+                    a{
+                        display: block;
+                        width:100px;
+                        height:40px;
+                        text-align: center;
+                        line-height: 40px;
+                        background: #da0055;
+                    }
+                };
+                &:nth-child(2){
+                    width:122px;
+                    height:40px;
+                    a{
+                        display: block;
+                        width:122px;
+                        height:46px;
+                        position: relative;
+                        background: url(../images/common-thumb.png) no-repeat -187px -46px; 
+                        bottom: 6px;                                        
+                    }
+                };
+                &:nth-child(3){
+                    width:100px;
+                    height:40px;
+                    a{
+                        display: block;
+                        width:100px;
+                        height:40px;
+                        text-align: center;
+                        line-height: 40px;
+                       &:hover{
+                           color:#da0055;
+                       }
+                    }
+                };
+                &:nth-child(4){
+                    width:100px;
+                    height:40px;
+                    a{
+                        display: block;
+                        width:100px;
+                        height:40px;
+                        text-align: center;
+                        line-height: 40px;
+                       &:hover{
+                           color:#da0055;
+                       }
+                    }
+                };
+                &:nth-child(5){
+                    width:100px;
+                    height:40px;
+                    a{
+                        display: block;
+                        width:100px;
+                        height:40px;
+                        text-align: center;
+                        line-height: 40px;
+                       &:hover{
+                           color:#da0055;
+                       }
+                    }
+                };
+                &:nth-child(6){
+                    width:130px;
+                    height:40px;
+                    a{
+                        display: block;
+                        width:130px;
+                        height:40px;
+                        text-align: center;
+                        line-height: 40px;
+                       &:hover{
+                           color:#da0055;
+                       }
+                    }
+                };
+                &:nth-child(7){
+                    width:100px;
+                    height:40px;
+                    a{
+                        display: block;
+                        width:100px;
+                        height:40px;
+                        text-align: center;
+                        line-height: 40px;
+                       &:hover{
+                           color:#da0055;
+                       }
+                    }
+                };
+            };
+            
+        };
+        .subnav1{
+            .nnavarr1{
+                position: absolute;       
+                top: 32px;
+                left: 264px;
+                width: 16px;
+                height: 16px;
+                line-height: 16px;
+                text-align: center;
+                font-size: 16px;
+                font-family: "\5b8b\4f53";
+                color: white;
+                text-decoration: none;
+                //display: none;
+            }
+        };
+        .subnav2{
+            .nnavarr2{
+                position: absolute;       
+                top: 32px;
+                left: 364px;
+                width: 16px;
+                height: 16px;
+                line-height: 16px;
+                text-align: center;
+                font-size: 16px;
+                font-family: "\5b8b\4f53";
+                color: white;
+                text-decoration: none;
+                //display: none;
+            }
+        };
+        .subnav3{
+            .nnavarr3{
+                position: absolute;       
+                top: 32px;
+                left: 464px;
+                width: 16px;
+                height: 16px;
+                line-height: 16px;
+                text-align: center;
+                font-size: 16px;
+                font-family: "\5b8b\4f53";
+                color: white;
+                text-decoration: none;
+                //display: none;
+            }
+        };
+        .subnav4{
+            .nnavarr4{
+                position: absolute;       
+                top: 32px;
+                left: 594px;
+                width: 16px;
+                height: 16px;
+                line-height: 16px;
+                text-align: center;
+                font-size: 16px;
+                font-family: "\5b8b\4f53";
+                color: white;
+                text-decoration: none;
+                //display: none;
+            }
+        };
+    };
+}
+
+
