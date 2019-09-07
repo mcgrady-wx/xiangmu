@@ -6,8 +6,18 @@ $(function(){
 	},function(){
 		$(".subnav1").css("display","none");
 	})
+	$(".subnav1").hover(function(){
+		$(".subnav1").css("display","block");
+	},function(){
+		$(".subnav1").css("display","none");
+	})
 	//休闲服饰
 	$("#xiu").hover(function(){
+		$(".subnav2").css("display","block");
+	},function(){
+		$(".subnav2").css("display","none");
+	})
+	$(".subnav2").hover(function(){
 		$(".subnav2").css("display","block");
 	},function(){
 		$(".subnav2").css("display","none");
@@ -18,12 +28,21 @@ $(function(){
 	},function(){
 		$(".subnav3").css("display","none");
 	})
+	$(".subnav3").hover(function(){
+		$(".subnav3").css("display","block");
+	},function(){
+		$(".subnav3").css("display","none");
+	})
 	//全球购
 	$("#quan").hover(function(){
 		$(".subnav4").css("display","block");
 	},function(){
 		$(".subnav4").css("display","none");
 	})
+	$(".subnav4").hover(function(){
+		$(".subnav4").css("display","block");
+	},function(){
+		$(".subnav4").css("display","none");
 	
-	
+	})
 })
