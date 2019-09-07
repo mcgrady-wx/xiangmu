@@ -379,6 +379,7 @@ nav{
         position: relative;
         ul{
             font-size: 14px;
+            margin-bottom: 0px;
             li{
                 float: left;
                 a{
@@ -483,9 +484,17 @@ nav{
             
         };
         .subnav1{
+                width:1124px;
+                height:396px;
+                padding-top: 13px;
+                position: absolute;
+                top:40px;
+                left: 0px;
+                z-index: 999;
+                display: none;
             .nnavarr1{
                 position: absolute;       
-                top: 32px;
+                top: -8px;
                 left: 264px;
                 width: 16px;
                 height: 16px;
@@ -495,13 +504,160 @@ nav{
                 font-family: "\5b8b\4f53";
                 color: white;
                 text-decoration: none;
-                //display: none;
+            };
+            .yundong{
+                width:1124px;
+                height:383px;
+                .colbox{
+                    width:385px;
+                    height:372px;
+                    float: left;
+                    padding: 10px 12px;
+                    border-right:1px dotted ;
+                    h3{
+                        font-size: 12px;
+                        margin-top: 0px;
+                        color: #D20D33;
+                    };
+                    .catewrap{
+                        line-height: 12px;
+                        font-size: 12px;
+                        margin-bottom: 12px;
+                        margin-top: 12px;
+                        overflow: hidden;
+                        h3{
+                            color: #5E5E5E;
+                        };
+                        .context{
+                            margin-top: 16px;
+                            a{
+                                float: left;
+                                display: inline;
+                                width: auto;
+                                margin-right: 15px;
+                                margin-bottom: 8px;
+                                white-space: nowrap;                               
+                                color: #5E5E5E;
+                                text-decoration: none;
+                                &:hover{
+                                    color:#D20D33;
+                                }
+                            }
+                        }
+                    }
+                };
+                .right{
+                    width:264px;
+                    height:385px;
+                    float: left;
+                    padding: 10px 12px;
+                    h3{
+                        font-size: 12px;
+                        margin-top: 0px;
+                        margin-bottom: 0px;
+                        color: #D20D33;
+                    };
+                    .catewrap1{
+                        li{
+                            float: left;
+                            width:80px;
+                            height:43px;
+                            a{
+                                display: block;
+                                width:80px;
+                                height:55px;
+                                background: url(../images/2.png) no-repeat;
+                            };
+                            &:nth-child(1) a{
+                                background-position: 0px 0px;
+                            }
+                            &:nth-child(2) a{
+                                background-position: -80px 0px;
+                                bottom:0px;
+                            }
+                            &:nth-child(3) a{
+                                background-position: -160px 0px;
+                            }
+                            &:nth-child(4) a{
+                                background-position: 0px -43px;
+                            }
+                            &:nth-child(5) a{
+                                background-position: -80px -43px;
+                            }
+                            &:nth-child(6) a{
+                                background-position: -160px -43px;
+                            }
+                            &:nth-child(7) a{
+                                background-position: 0px -86px;
+                            }
+                            &:nth-child(8) a{
+                                background-position: -80px -86px;
+                            }
+                            &:nth-child(9) a{
+                                background-position: -160px -86px;
+                            }
+                            &:nth-child(10) a{
+                                background-position: 0px -129px;
+                            }
+                            &:nth-child(11) a{
+                                background-position: -80px -129px;
+                            }
+                            &:nth-child(12) a{
+                                background-position: -160px -129px;
+                            }
+                            &:nth-child(13) a{
+                                background-position: 0px -172px;
+                            }
+                            &:nth-child(14) a{
+                                background-position: -80px -172px;
+                            }
+                            &:nth-child(15) a{
+                                background-position: -160px -172px;
+                            }
+                            &:nth-child(16) a{
+                                background-position: 0px -215px;
+                            }
+                            &:nth-child(17) a{
+                                background-position: -80px -215px;
+                            }
+                            &:nth-child(18) a{
+                                background-position: -160px -215px;
+                            }
+                            &:nth-child(19) a{
+                                background-position: 0px -258px;
+                            }
+                            &:nth-child(20) a{
+                                background-position: -80px -258px;
+                            }
+                            &:nth-child(21) a{
+                                background-position: -160px -258px;
+                            }
+                            &:nth-child(22) a{
+                                background-position: 0px -301px;
+                            }
+                            &:nth-child(23) a{
+                                background-position: -80px -301px;
+                            }
+                            &:nth-child(24) a{
+                                background-position: -160px -301px;
+                            }
+                        }
+                    }
+                }    
             }
         };
         .subnav2{
+            width:935px;
+            height:385px;
+            padding-top: 13px;
+            position: absolute;
+            top:40px;
+            left: 0px;
+            z-index: 999;
+            display: none;
             .nnavarr2{
                 position: absolute;       
-                top: 32px;
+                top: -8px;
                 left: 364px;
                 width: 16px;
                 height: 16px;
@@ -511,13 +667,151 @@ nav{
                 font-family: "\5b8b\4f53";
                 color: white;
                 text-decoration: none;
-                //display: none;
+            }
+            .xiuxian{
+                width:935px;
+                height:372px;
+                .colbox{
+                    width:345px;
+                    height:372px;
+                    float: left;
+                    padding: 10px 12px;
+                    border-right:1px dotted ;
+                    h3{
+                        font-size: 12px;
+                        margin-top: 0px;
+                        color: #D20D33;
+                    };
+                    .catewrap{
+                        line-height: 12px;
+                        font-size: 12px;
+                        margin-bottom: 12px;
+                        margin-top: 12px;
+                        overflow: hidden;
+                        h3{
+                            color: #5E5E5E;
+                        };
+                        .context{
+                            margin-top: 16px;
+                            a{
+                                float: left;
+                                display: inline;
+                                width: auto;
+                                margin-right: 15px;
+                                margin-bottom: 8px;
+                                white-space: nowrap;                               
+                                color: #5E5E5E;
+                                text-decoration: none;
+                                &:hover{
+                                    color:#D20D33;
+                                }
+                            }
+                        }
+                    }
+                };
+                .right{
+                    width:264px;
+                    height:385px;
+                    float: left;
+                    padding: 10px 12px;
+                    h3{
+                        font-size: 12px;
+                        margin-top: 0px;
+                        margin-bottom: 0px;
+                        color: #D20D33;
+                    };
+                    .catewrap1{
+                        li{
+                            float: left;
+                            width:80px;
+                            height:43px;
+                            a{
+                                display: block;
+                                width:80px;
+                                height:55px;
+                                background: url(../images/3.jpg) no-repeat;
+                            };
+                            &:nth-child(1) a{
+                                background-position: 0px 0px;
+                            }
+                            &:nth-child(2) a{
+                                background-position: -80px 0px;
+                                bottom:0px;
+                            }
+                            &:nth-child(3) a{
+                                background-position: -160px 0px;
+                            }
+                            &:nth-child(4) a{
+                                background-position: 0px -43px;
+                            }
+                            &:nth-child(5) a{
+                                background-position: -80px -43px;
+                            }
+                            &:nth-child(6) a{
+                                background-position: -160px -43px;
+                            }
+                            &:nth-child(7) a{
+                                background-position: 0px -86px;
+                            }
+                            &:nth-child(8) a{
+                                background-position: -80px -86px;
+                            }
+                            &:nth-child(9) a{
+                                background-position: -160px -86px;
+                            }
+                            &:nth-child(10) a{
+                                background-position: 0px -129px;
+                            }
+                            &:nth-child(11) a{
+                                background-position: -80px -129px;
+                            }
+                            &:nth-child(12) a{
+                                background-position: -160px -129px;
+                            }
+                            &:nth-child(13) a{
+                                background-position: 0px -172px;
+                            }
+                            &:nth-child(14) a{
+                                background-position: -80px -172px;
+                            }
+                            &:nth-child(15) a{
+                                background-position: -160px -172px;
+                            }
+                            &:nth-child(16) a{
+                                background-position: 0px -215px;
+                            }
+                            &:nth-child(17) a{
+                                background-position: -80px -215px;
+                            }
+                            &:nth-child(18) a{
+                                background-position: -160px -215px;
+                            }
+                            &:nth-child(19) a{
+                                background-position: 0px -258px;
+                            }
+                            &:nth-child(20) a{
+                                background-position: -80px -258px;
+                            }
+                            &:nth-child(21) a{
+                                background-position: -160px -258px;
+                            }
+                        }
+                    }
+                }    
             }
         };
         .subnav3{
+                width:946px;
+                height:385px;
+                padding-top: 13px;
+                position: absolute;
+                top:40px;
+                left: 0px;
+                z-index: 999;
+                display: none;
             .nnavarr3{
                 position: absolute;       
-                top: 32px;
+                top: -8px;
                 left: 464px;
                 width: 16px;
                 height: 16px;
@@ -527,13 +821,151 @@ nav{
                 font-family: "\5b8b\4f53";
                 color: white;
                 text-decoration: none;
-                //display: none;
+            };
+            .nannv{
+                width:955px;
+                height:383px;
+                .colbox{
+                    width:345px;
+                    height:372px;
+                    float: left;
+                    padding: 10px 12px;
+                    border-right:1px dotted ;
+                    h3{
+                        font-size: 12px;
+                        margin-top: 0px;
+                        color: #D20D33;
+                    };
+                    .catewrap{
+                        line-height: 12px;
+                        font-size: 12px;
+                        margin-bottom: 12px;
+                        margin-top: 12px;
+                        overflow: hidden;
+                        h3{
+                            color: #5E5E5E;
+                        };
+                        .context{
+                            margin-top: 16px;
+                            a{
+                                float: left;
+                                display: inline;
+                                width: auto;
+                                margin-right: 15px;
+                                margin-bottom: 8px;
+                                white-space: nowrap;                               
+                                color: #5E5E5E;
+                                text-decoration: none;
+                                &:hover{
+                                    color:#D20D33;
+                                }
+                            }
+                        }
+                    }
+                };
+                .right{
+                    width:265px;
+                    height:381px;
+                    float: left;
+                    padding: 10px 12px;
+                    h3{
+                        font-size: 12px;
+                        margin-top: 0px;
+                        margin-bottom: 0px;
+                        color: #D20D33;
+                    };
+                    .catewrap1{
+                        li{
+                            float: left;
+                            width:80px;
+                            height:43px;
+                            a{
+                                display: block;
+                                width:80px;
+                                height:55px;
+                                background: url(../images/4.jpg) no-repeat;
+                            };
+                            &:nth-child(1) a{
+                                background-position: 0px 0px;
+                            }
+                            &:nth-child(2) a{
+                                background-position: -80px 0px;
+                                bottom:0px;
+                            }
+                            &:nth-child(3) a{
+                                background-position: -160px 0px;
+                            }
+                            &:nth-child(4) a{
+                                background-position: 0px -43px;
+                            }
+                            &:nth-child(5) a{
+                                background-position: -80px -43px;
+                            }
+                            &:nth-child(6) a{
+                                background-position: -160px -43px;
+                            }
+                            &:nth-child(7) a{
+                                background-position: 0px -86px;
+                            }
+                            &:nth-child(8) a{
+                                background-position: -80px -86px;
+                            }
+                            &:nth-child(9) a{
+                                background-position: -160px -86px;
+                            }
+                            &:nth-child(10) a{
+                                background-position: 0px -129px;
+                            }
+                            &:nth-child(11) a{
+                                background-position: -80px -129px;
+                            }
+                            &:nth-child(12) a{
+                                background-position: -160px -129px;
+                            }
+                            &:nth-child(13) a{
+                                background-position: 0px -172px;
+                            }
+                            &:nth-child(14) a{
+                                background-position: -80px -172px;
+                            }
+                            &:nth-child(15) a{
+                                background-position: -160px -172px;
+                            }
+                            &:nth-child(16) a{
+                                background-position: 0px -215px;
+                            }
+                            &:nth-child(17) a{
+                                background-position: -80px -215px;
+                            }
+                            &:nth-child(18) a{
+                                background-position: -160px -215px;
+                            }
+                            &:nth-child(19) a{
+                                background-position: 0px -258px;
+                            }
+                            &:nth-child(20) a{
+                                background-position: -80px -258px;
+                            }
+                            &:nth-child(21) a{
+                                background-position: -160px -258px;
+                            }
+                        }
+                    }
+                }    
             }
         };
         .subnav4{
+            width:1158px;
+            height:396px;
+            padding-top: 13px;
+            position: absolute;
+            top:40px;
+            left: 0px;
+            z-index: 999;
+            display: none;
             .nnavarr4{
                 position: absolute;       
-                top: 32px;
+                top: -8px;
                 left: 594px;
                 width: 16px;
                 height: 16px;
@@ -543,7 +975,137 @@ nav{
                 font-family: "\5b8b\4f53";
                 color: white;
                 text-decoration: none;
-                //display: none;
+            }
+            .quanqiu{
+                width:1158px;
+                height:383px;
+                .colbox{
+                    width:345px;
+                    height:372px;
+                    float: left;
+                    padding: 10px 12px;
+                    border-right:1px dotted ;
+                    h3{
+                        font-size: 12px;
+                        margin-top: 0px;
+                        color: #D20D33;
+                    };
+                    .catewrap{
+                        line-height: 12px;
+                        font-size: 12px;
+                        margin-bottom: 12px;
+                        margin-top: 12px;
+                        overflow: hidden;
+                        h3{
+                            color: #5E5E5E;
+                        };
+                        .context{
+                            margin-top: 16px;
+                            a{
+                                float: left;
+                                display: inline;
+                                width: auto;
+                                margin-right: 15px;
+                                margin-bottom: 8px;
+                                white-space: nowrap;                               
+                                color: #5E5E5E;
+                                text-decoration: none;
+                                &:hover{
+                                    color:#D20D33;
+                                }
+                            }
+                        }
+                    }
+                };
+                .right{
+                    width:265px;
+                    height:393px;
+                    float: left;
+                    padding: 10px 12px;
+                    h3{
+                        font-size: 12px;
+                        margin-top: 0px;
+                        margin-bottom: 0px;
+                        color: #D20D33;
+                    };
+                    .catewrap1{
+                        li{
+                            float: left;
+                            width:80px;
+                            height:43px;
+                            a{
+                                display: block;
+                                width:80px;
+                                height:55px;
+                                background: url(../images/6.jpg) no-repeat;
+                            };
+                            &:nth-child(1) a{
+                                background-position: 0px 0px;
+                            }
+                            &:nth-child(2) a{
+                                background-position: -80px 0px;
+                                bottom:0px;
+                            }
+                            &:nth-child(3) a{
+                                background-position: -160px 0px;
+                            }
+                            &:nth-child(4) a{
+                                background-position: 0px -43px;
+                            }
+                            &:nth-child(5) a{
+                                background-position: -80px -43px;
+                            }
+                            &:nth-child(6) a{
+                                background-position: -160px -43px;
+                            }
+                            &:nth-child(7) a{
+                                background-position: 0px -86px;
+                            }
+                            &:nth-child(8) a{
+                                background-position: -80px -86px;
+                            }
+                            &:nth-child(9) a{
+                                background-position: -160px -86px;
+                            }
+                            &:nth-child(10) a{
+                                background-position: 0px -129px;
+                            }
+                            &:nth-child(11) a{
+                                background-position: -80px -129px;
+                            }
+                            &:nth-child(12) a{
+                                background-position: -160px -129px;
+                            }
+                            &:nth-child(13) a{
+                                background-position: 0px -172px;
+                            }
+                            &:nth-child(14) a{
+                                background-position: -80px -172px;
+                            }
+                            &:nth-child(15) a{
+                                background-position: -160px -172px;
+                            }
+                            &:nth-child(16) a{
+                                background-position: 0px -215px;
+                            }
+                            &:nth-child(17) a{
+                                background-position: -80px -215px;
+                            }
+                            &:nth-child(18) a{
+                                background-position: -160px -215px;
+                            }
+                            &:nth-child(19) a{
+                                background-position: 0px -258px;
+                            }
+                            &:nth-child(20) a{
+                                background-position: -80px -258px;
+                            }
+                            &:nth-child(21) a{
+                                background-position: -160px -258px;
+                            }
+                        }
+                    }
+                }    
             }
         };
     };

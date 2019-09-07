@@ -1,0 +1,29 @@
+$(function(){
+	/*悬停显示二级菜单*/
+	//运动生活
+	$("#yun").hover(function(){
+		$(".subnav1").css("display","block");
+	},function(){
+		$(".subnav1").css("display","none");
+	})
+	//休闲服饰
+	$("#xiu").hover(function(){
+		$(".subnav2").css("display","block");
+	},function(){
+		$(".subnav2").css("display","none");
+	})
+	//男女名鞋
+	$("#nan").hover(function(){
+		$(".subnav3").css("display","block");
+	},function(){
+		$(".subnav3").css("display","none");
+	})
+	//全球购
+	$("#quan").hover(function(){
+		$(".subnav4").css("display","block");
+	},function(){
+		$(".subnav4").css("display","none");
+	})
+	
+	
+})
