@@ -1,0 +1,360 @@
+//广告轮播 ad
+.ad{
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    .yuan{
+        width: 280px;
+        height: 20px;
+        margin: 0 auto;
+        margin-top: 300px;
+        i{
+            width: 20px;
+            height: 20px;
+            border:1px solid;
+            border-radius: 10px;
+            float: left;
+            margin: 0 10px;
+            position: relative;
+            z-index: 99;
+            cursor: pointer;
+        };
+        .liang{
+            background: #d70057;
+        }
+    };
+    .right{
+        position: absolute;
+        right:350px;
+        top: 175px;
+        display: block;
+        font-size: 50px;
+        cursor: pointer;
+        z-index: 99;
+        }
+    .left{
+        position: absolute;
+        left:350px;
+        top: 175px;
+        display: block;
+        font-size: 50px;
+        cursor: pointer;
+        z-index: 99;
+    }
+    
+    .lun{
+        height: 350px;
+        overflow: hidden;
+        position: absolute;
+        top:0px;
+        z-index: 1;
+    }
+}
+
+//链接link
+.link{
+    width: 100%;
+    height: 315px;
+    background: #f5f5f5;
+    .copyright{
+        height:87px;
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .links{
+        height:194px;
+        width: 1200px;
+        background: white;
+        margin: 0 auto;
+        ul{
+            height:194px;
+            width: 1200px;
+            margin-bottom: 0px;
+            li{
+                height:65px;
+                width: 100px;
+                border-bottom: 1px solid #f5f5f5;
+                border-right: 1px solid #f5f5f5;
+                float: left;
+                a{
+                    display: block;
+                    height:65px;
+                    width: 100px;
+                    background: url(../images/7.jpg) no-repeat center center;
+                }
+                &:nth-child(2){
+                    a{
+                         background: url(../images/8.jpg) no-repeat center center;
+                    }
+                }
+                &:nth-child(3){
+                    a{
+                         background: url(../images/9.jpg) no-repeat center center;
+                    }
+                }
+                &:nth-child(4){
+                    a{
+                         background: url(../images/10.jpg) no-repeat center center;
+                    }
+                }
+                &:nth-child(5){
+                    a{
+                         background: url(../images/11.png) no-repeat center center;
+                    }
+                }
+                &:nth-child(6){
+                    a{
+                         background: url(../images/12.png) no-repeat center center;
+                    }
+                }
+                &:nth-child(7){
+                    a{
+                         background: url(../images/13.png) no-repeat center center;
+                    }
+                }
+                &:nth-child(8){
+                    a{
+                         background: url(../images/14.png) no-repeat center center;
+                    }
+                }
+                &:nth-child(9){
+                    a{
+                         background: url(../images/15.jpg) no-repeat center center;
+                    }
+                }
+                &:nth-child(10){
+                    a{
+                         background: url(../images/16.jpg) no-repeat center center;
+                    }
+                }
+                &:nth-child(11){
+                    a{
+                         background: url(../images/17.jpg) no-repeat center center;
+                    }
+                }
+                &:nth-child(12){
+                    a{
+                         background: url(../images/18.png) no-repeat center center;
+                    }
+                }
+                &:nth-child(13){
+                    a{
+                         background: url(../images/19.png) no-repeat center center;
+                    }
+                }
+                &:nth-child(14){
+                    a{
+                         background: url(../images/20.jpg) no-repeat center center;
+                    }
+                }
+                &:nth-child(15){
+                    a{
+                         background: url(../images/21.png) no-repeat center center;
+                    }
+                }
+                &:nth-child(16){
+                    a{
+                         background: url(../images/22.png) no-repeat center center;
+                    }
+                }
+                &:nth-child(17){
+                    a{
+                         background: url(../images/23.png) no-repeat center center;
+                    }
+                }
+                &:nth-child(18){
+                    a{
+                         background: url(../images/24.png) no-repeat center center;
+                    }
+                }
+                &:nth-child(19){
+                    a{
+                         background: url(../images/25.png) no-repeat center center;
+                    }
+                }
+                &:nth-child(20){
+                    a{
+                         background: url(../images/26.jpg) no-repeat center center;
+                    }
+                }
+                &:nth-child(21){
+                    a{
+                         background: url(../images/27.png) no-repeat center center;
+                    }
+                }
+                &:nth-child(22){
+                    a{
+                         background: url(../images/28.png) no-repeat center center;
+                    }
+                }
+                &:nth-child(23){
+                    a{
+                         background: url(../images/29.png) no-repeat center center;
+                    }
+                }
+                &:nth-child(24){
+                    a{
+                         background: url(../images/30.png) no-repeat center center;
+                    }
+                }
+                &:nth-child(25){
+                    a{
+                         background: url(../images/31.png) no-repeat center center;
+                    }
+                }
+                &:nth-child(26){
+                    a{
+                         background: url(../images/32.png) no-repeat center center;
+                    }
+                }
+                &:nth-child(27){
+                    a{
+                         background: url(../images/19.png) no-repeat center center;
+                    }
+                }
+                &:nth-child(28){
+                    a{
+                         background: url(../images/34.jpg) no-repeat center center;
+                    }
+                }
+                &:nth-child(29){
+                    a{
+                         background: url(../images/35.jpg) no-repeat center center;
+                    }
+                }
+                &:nth-child(30){
+                    a{
+                         background: url(../images/36.png) no-repeat center center;
+                    }
+                }
+                &:nth-child(31){
+                    a{
+                         background: url(../images/37.png) no-repeat center center;
+                    }
+                }
+                &:nth-child(32){
+                    a{
+                         background: url(../images/38.jpg) no-repeat center center;
+                    }
+                }
+                &:nth-child(33){
+                    a{
+                         background: url(../images/39.png) no-repeat center center;
+                    }
+                }
+                &:nth-child(34){
+                    a{
+                         background: url(../images/40.png) no-repeat center center;
+                    }
+                }
+                &:nth-child(35){
+                    a{
+                         background: url(../images/41.png) no-repeat center center;
+                    }
+                }
+                &:nth-child(36){
+                    a{
+                         background: url(../images/42.png) no-repeat center center;
+                    }
+                }
+            }   
+        }
+    }
+}
+
+//主体内容
+.content{
+    height: 5280px;
+    width: 1200px;
+    border: 1px solid;
+    margin: 0 auto;
+    .top{
+        width: 1200px;
+        height: 3311px;
+        background: url(../images/fg_3.png) no-repeat center bottom;
+        .ad1{
+            width: 1200px;
+            height: 150px;
+            a{
+                width: 1200px;
+                height: 150px;
+                display: block;
+                background: url(../images/43.jpg) no-repeat center center;
+            }
+        }
+    }
+    .products{
+        ul{
+            width: 1200px;
+            height: 3080px;
+            margin-top:20px;
+            background:pink;
+            li{ 
+                width: 595px;
+                height: 210px;
+                float: left;
+                margin-top: 10px;
+                position: relative;
+                a{
+                    text-decoration: none;
+                    color:#666666;
+                    display: block;
+                    width: 595px;
+                    height: 210px;
+                    border: 1px solid #e9e7ea;
+                    img{
+                        width: 595px;
+                        height: 210px;
+                    }
+                    .tit1{
+                            position: absolute;
+                            z-index: 2;
+                            left: 0;
+                            top: 76px;
+                            color: #333;
+                            font-size: 14px;
+                            line-height: 18px;
+                            width: 200px;
+                            text-align: center;
+                    }
+                    .tit2{
+                            position: absolute;
+                            z-index: 2;
+                            left: 0;
+                            top: 94px;
+                            color: #333;
+                            font-size: 14px;
+                            line-height: 18px;
+                            width: 200px;
+                            text-align: center;
+                    }
+                    .tit3{
+                            position: absolute;
+                            z-index: 2;
+                            left: 0;
+                            top: 144px;
+                            color: #333;
+                            font-size: 14px;
+                            line-height: 18px;
+                            width: 200px;
+                            text-align: center;
+                            color: #d70057;
+                            font-size: 20px;
+                            font-weight: bold;
+                    }
+                    .time{
+                            position: absolute;
+                            z-index: 2;
+                            left: 48px;
+                            bottom: 10px;
+                            color: #666;
+                    }
+                }
+                &:nth-child(2n){
+                    margin-left:10px;
+                }
+            }
+        }
+    }
+}
