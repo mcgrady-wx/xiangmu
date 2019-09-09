@@ -49,6 +49,10 @@
         position: absolute;
         top:0px;
         z-index: 1;
+        li{
+            display: none;
+            opacity: 0;
+        }
     }
 }
 
