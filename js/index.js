@@ -61,4 +61,54 @@ $(function(){
 			}
 		}
 	})
-}) 
+			
+})
+//倒计时
+$(function(){
+	
+	//计算倒计时时间
+	function date(){
+		let endtime=new Date("2019-09-13 00:00:00"),//设置结束时间
+			starttime=new Date(),//获取当前时间
+			t=endtime.getTime()-starttime.getTime();//计算时间差
+		let day="",hours="",minutes="",seconds="",fseconds="";
+		day=Math.floor(t/1000/60/60/24);//剩余天数
+		hours=Math.floor(t/1000/60/60%24);//剩余小时
+		minutes=Math.floor(t/1000/60%60);//剩余分钟
+		seconds=Math.floor(t/1000%60);//剩余秒数
+		$(".day>i").text(day);
+		$(".hour>i").text(hours);
+		$(".minute>i").text(minutes);
+		$(".second>i").text(seconds);
+		//倒计时结束，停止
+		if (t<=0) {
+			clearInterval(time);
+		}
+	}
+	//启动倒计时
+	let time=setInterval(date,1000);
+	
+})
+
+//滚动事件
+$(function(){
+	//添加滚动事件
+	$(window).scroll(function(){
+		let _scroll= document.documentElement.scrollTop || document.body.scrollTop;//获取窗口滚动距离
+		//固定导航
+		if (_scroll>=224) {
+			$("nav").css({"position":"fixed","top":"0px","z-index":"999"});
+		} else {
+			$("nav").css({"position":"static"});
+		}
+		console.log(_scroll)
+		//显示返回顶部按钮
+		if (_scroll>=90&&_scroll<5420) {
+			$(".gototop").css({"display":"block","position":"fixed","bottom":"0px"});
+		} else if(_scroll>=5420){	
+			$(".gototop").css({"position":"absolute","bottom":"-5420px"});
+		} else if(_scroll<90){
+			$(".gototop").css("display","none");
+		}
+	})
+})
