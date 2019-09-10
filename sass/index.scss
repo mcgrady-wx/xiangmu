@@ -271,7 +271,6 @@
 .content{
     height: 5280px;
     width: 1200px;
-    border: 1px solid;
     margin: 0 auto;
     .top{
         width: 1200px;
@@ -286,79 +285,175 @@
                 display: block;
                 background: url(../images/43.jpg) no-repeat center center;
             }
-        }
-    }
-    .products{
-        ul{
-            width: 1200px;
-            height: 3080px;
-            margin-top:20px;
-            background:pink;
-            li{ 
-                width: 595px;
-                height: 210px;
-                float: left;
-                margin-top: 10px;
-                position: relative;
-                a{
-                    text-decoration: none;
-                    color:#666666;
-                    display: block;
+        };
+        .products{
+            ul{
+                width: 1200px;
+                height: 3080px;
+                margin-top:20px;
+                li{ 
                     width: 595px;
                     height: 210px;
-                    border: 1px solid #e9e7ea;
-                    img{
+                    float: left;
+                    margin-top: 10px;
+                    position: relative;
+                    a{
+                        text-decoration: none;
+                        color:#666666;
+                        display: block;
                         width: 595px;
                         height: 210px;
+                        border: 1px solid #e9e7ea;
+                        &:hover{
+                            border-color: #d70057;
+                        }
+                        img{
+                            width: 593px;
+                            height: 208px;
+                        }
+                        .tit1{
+                                position: absolute;
+                                z-index: 2;
+                                left: 0;
+                                top: 76px;
+                                color: #333;
+                                font-size: 14px;
+                                line-height: 18px;
+                                width: 200px;
+                                text-align: center;
+                        }
+                        .tit2{
+                                position: absolute;
+                                z-index: 2;
+                                left: 0;
+                                top: 94px;
+                                color: #333;
+                                font-size: 14px;
+                                line-height: 18px;
+                                width: 200px;
+                                text-align: center;
+                        }
+                        .tit3{
+                                position: absolute;
+                                z-index: 2;
+                                left: 0;
+                                top: 144px;
+                                color: #333;
+                                font-size: 14px;
+                                line-height: 18px;
+                                width: 200px;
+                                text-align: center;
+                                color: #d70057;
+                                font-size: 20px;
+                                font-weight: bold;
+                        }
+                        .time{
+                                position: absolute;
+                                z-index: 2;
+                                left: 48px;
+                                bottom: 10px;
+                                color: #666;
+                        }
                     }
-                    .tit1{
-                            position: absolute;
-                            z-index: 2;
-                            left: 0;
-                            top: 76px;
-                            color: #333;
-                            font-size: 14px;
-                            line-height: 18px;
-                            width: 200px;
-                            text-align: center;
+                    &:nth-child(2n){
+                        margin-left:10px;
                     }
-                    .tit2{
-                            position: absolute;
-                            z-index: 2;
-                            left: 0;
-                            top: 94px;
-                            color: #333;
-                            font-size: 14px;
-                            line-height: 18px;
-                            width: 200px;
-                            text-align: center;
-                    }
-                    .tit3{
-                            position: absolute;
-                            z-index: 2;
-                            left: 0;
-                            top: 144px;
-                            color: #333;
-                            font-size: 14px;
-                            line-height: 18px;
-                            width: 200px;
-                            text-align: center;
-                            color: #d70057;
-                            font-size: 20px;
-                            font-weight: bold;
-                    }
-                    .time{
-                            position: absolute;
-                            z-index: 2;
-                            left: 48px;
-                            bottom: 10px;
-                            color: #666;
-                    }
-                }
-                &:nth-child(2n){
-                    margin-left:10px;
                 }
             }
         }
+    }
+    .bottom{
+        height: 1969px;
+        width: 1200px;
+        .ad2{
+            width: 1200px;
+            height: 170px;
+            background: url(../images/fg_3.png) no-repeat center 150px;
+            a{
+                width: 1200px;
+                height: 150px;
+                display: block;
+                background: url(../images/73.png) no-repeat center center;
+            }
+        };
+        .products1{
+            ul{
+                width: 1200px;
+                height: 1784px;
+                margin-top: 15px;
+                li{
+                    width: 390px;
+                    height: 331px;
+                    float: left;
+                    margin-top: 15px;
+                    position: relative;
+                    a{
+                        text-decoration: none;
+                        color:#666666;
+                        display: block;
+                        width: 390px;
+                        height: 331px;
+                        border: 1px solid #e9e7ea;
+                        font-family: "Microsoft YaHei";
+                        &:hover{
+                            border-color: #d70057;
+                        }
+                        img{
+                            width: 388px;
+                            height: 329px;
+                        }
+                        .list3tit1{
+                            position: absolute;
+                            z-index: 2;
+                            left: 20px;
+                            bottom: 50px;
+                            color: #333;
+                            line-height: 18px;
+                            width: 250px;
+                            text-align: left;
+                            font-size: 18px;
+                            span{
+                                color: #d70057;
+                                font-weight: bold;
+                            }
+                        }
+                        .time2{
+                            position: absolute;
+                            z-index: 2;
+                            left: 20px;
+                            bottom: 20px;
+                            color: #666;
+                        }
+                    }   
+                }
+                .center{
+                    margin-left:15px;
+                    margin-right: 15px;
+                }
+            }
+            
+        }
+        
+    }
+
+}
+
+//返回顶部按钮
+.gototop{
+    width: 20px;
+    height: 80px;
+    z-index: 999;
+    position: fixed;
+    left: 50%;
+    margin-left: 615px;
+    bottom: 0px;
+    cursor: pointer;
+    display: block;
+    .top{
+        background: url(../images/gototop_2.png) no-repeat 0 0;
+        width: 50px;
+        height: 50px;
+        display: block;
+         margin: 10px 0 10px 0;
     }
 }
