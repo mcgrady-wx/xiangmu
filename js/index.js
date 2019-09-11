@@ -101,13 +101,10 @@ $(function(){
 		} else {
 			$("nav").css({"position":"static"});
 		}
-		console.log(_scroll)
 		//显示返回顶部按钮
-		if (_scroll>=90&&_scroll<5420) {
+		if (_scroll>=90) {
 			$(".gototop").css({"display":"block","position":"fixed","bottom":"0px"});
-		} else if(_scroll>=5420){	
-			$(".gototop").css({"position":"absolute","bottom":"-5420px"});
-		} else if(_scroll<90){
+		}  else if(_scroll<90){
 			$(".gototop").css("display","none");
 		}
 	})
