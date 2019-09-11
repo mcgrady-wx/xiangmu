@@ -61,5 +61,136 @@ header{
         position: relative;
         margin-top:20px;
         z-index: 99;
+        box-sizing: border-box;
+        padding-top: 34px;
+        padding-left: 30px;
+        padding-right: 30px;
+        h3{
+            font-size: 22px;
+            float: left;
+        };
+        h4{
+            font-size: 12px;
+            float: right;
+            a{
+                color:#d70057;
+                text-decoration: none;
+            }
+        }
+        #mobile{
+            width: 338px;
+            height: 51px;
+            box-sizing: border-box;
+            padding-left: 10px;
+            font-size: 12px;
+            color:#757575;
+            border: 1px solid #e0e0e0;
+            outline: none;
+            margin-top: 34px;
+        }
+        #password{
+            width: 338px;
+            height: 51px;
+            box-sizing: border-box;
+            padding-left: 10px;
+            font-size: 12px;
+            color:#757575;
+            border: 1px solid #e0e0e0;
+            outline: none;
+            margin-top: 31px;
+        }
+        #code{
+            width: 174px;
+            height: 50px;
+            box-sizing: border-box;
+            padding-left: 10px;
+            font-size: 12px;
+            color:#757575;
+            border: 1px solid #e0e0e0;
+            outline: none;
+            margin-top: 30px;
+        }
+        .images{
+            float:right;
+            margin-top: 37px;
+        }
+        #register_btn{
+            width: 338px;
+            height: 51px;
+            background: #d70057;
+            text-align: center;
+            line-height: 51px;
+            font-size: 18px;
+            color: white;
+            font-weight: 900;
+            margin-top: 31px;
+            outline: none;
+            cursor: pointer;
+            border: none;
+            &:hover{
+                background: #df3379;
+            }
+        }
     }
+    .mobiletrue{
+        display: none;
+        width: 18px;
+        height: 34px;
+        background: url(../images/vcodeicon.png) no-repeat center center;
+        position: absolute;
+        top: 100px;
+        right: 35px;
+    }
+    .passwordtrue{
+        display: none;
+        width: 18px;
+        height: 34px;
+        background: url(../images/vcodeicon.png) no-repeat center center;
+        position: absolute;
+        top: 185px;
+        right: 35px;
+    }
+    .mobilefalse{
+        font-size:12px;
+        color:#d00;
+        width: 338px;
+        height: 14px;
+        display: none;
+        line-height: 14px;
+        position: absolute;
+        top: 150px;
+        right: 30px;
+        i{
+            width: 14px;
+            height: 14px;
+            display: inline-block;
+            background: url(../images/ui_login.png) no-repeat -76px 0px;
+        }
+    }
+    .imagesfalse{
+        font-size:12px;
+        color:#d00;
+        width: 338px;
+        height: 14px;
+        display: none;
+        line-height: 14px;
+        position: absolute;
+        top: 315px;
+        right: 30px;
+        i{
+            width: 14px;
+            height: 14px;
+            display: inline-block;
+            background: url(../images/ui_login.png) no-repeat -76px 0px;
+        }
+    }
+}
+//尾部
+footer{
+    height: 28px;
+    margin: 80px auto 10px;
+    text-align: center;
+    color: #999;
+    font-size: 12px;
+    line-height: 28px;
 }
