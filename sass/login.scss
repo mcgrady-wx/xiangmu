@@ -62,19 +62,27 @@ header{
         margin-top:20px;
         z-index: 99;
         box-sizing: border-box;
-        padding-top: 34px;
+        padding-top: 30px;
         padding-left: 30px;
         padding-right: 30px;
-        h3{
+        .tou{
+            width: 338px;
+            height: 22px;
+            .left{
             font-size: 22px;
             float: left;
-        };
-        h4{
-            font-size: 12px;
-            float: right;
-            a{
+            margin-left: 40px;
+            };
+            .right{
+                font-size: 22px;
+                float: right;
+                margin-right: 40px;
                 color:#d70057;
-                text-decoration: none;
+            };
+            span{
+                margin-left: 35px;
+                font-size: 22px;
+                color:#e0e0e0;
             }
         }
         #mobile{
@@ -86,7 +94,8 @@ header{
             color:#757575;
             border: 1px solid #e0e0e0;
             outline: none;
-            margin-top: 34px;
+            margin-top: 40px;
+            display: none;
         }
         #password{
             width: 338px;
@@ -97,24 +106,11 @@ header{
             color:#757575;
             border: 1px solid #e0e0e0;
             outline: none;
-            margin-top: 31px;
-        }
-        #code{
-            width: 174px;
-            height: 50px;
-            box-sizing: border-box;
-            padding-left: 10px;
-            font-size: 12px;
-            color:#757575;
-            border: 1px solid #e0e0e0;
-            outline: none;
             margin-top: 30px;
+            display: none;
         }
-        .images{
-            float:right;
-            margin-top: 37px;
-        }
-        #register_btn{
+        
+        #login_btn{
             width: 338px;
             height: 51px;
             background: #d70057;
@@ -123,32 +119,15 @@ header{
             font-size: 18px;
             color: white;
             font-weight: 900;
-            margin-top: 31px;
+            margin-top: 30px;
             outline: none;
             cursor: pointer;
             border: none;
+            display: none;
             &:hover{
                 background: #df3379;
             }
         }
-    }
-    .mobiletrue{
-        display: none;
-        width: 18px;
-        height: 34px;
-        background: url(../images/vcodeicon.png) no-repeat center center;
-        position: absolute;
-        top: 100px;
-        right: 35px;
-    }
-    .passwordtrue{
-        display: none;
-        width: 18px;
-        height: 34px;
-        background: url(../images/vcodeicon.png) no-repeat center center;
-        position: absolute;
-        top: 185px;
-        right: 35px;
     }
     .mobilefalse{
         font-size:12px;
@@ -158,7 +137,7 @@ header{
         display: none;
         line-height: 14px;
         position: absolute;
-        top: 150px;
+        top: 75px;
         right: 30px;
         i{
             width: 14px;
@@ -167,21 +146,72 @@ header{
             background: url(../images/ui_login.png) no-repeat -76px 0px;
         }
     }
-    .imagesfalse{
-        font-size:12px;
-        color:#d00;
-        width: 338px;
-        height: 14px;
-        display: none;
-        line-height: 14px;
+    .mima{
+        text-decoration: none;
+        font-size: 12px;
+        color:#999;
         position: absolute;
-        top: 315px;
-        right: 30px;
-        i{
-            width: 14px;
-            height: 14px;
-            display: inline-block;
-            background: url(../images/ui_login.png) no-repeat -76px 0px;
+        bottom: 178px;
+        right: 35px;
+        display: none;
+    }
+    .link{
+        width: 400px;
+        height: 52px;
+        background: #f6f6f6;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        line-height: 52px;
+        p{
+            margin-top: 16px;
+            width: 211px;
+            height: 20px;
+            float: left;
+            a{
+                display: block;
+                width: 39px;
+                height: 20px;
+                border-right: 1px solid #e0e0e0;
+                float: left;
+                margin-right: 0px;
+                i{
+                    width: 18px;
+                    height: 18px;
+                    margin-left: 10px;
+                    margin-top: 2px;
+                    display: block;
+                    background: url(../images/ui_login.png) no-repeat -23px -58px;
+                }
+                &:nth-child(2) i{
+                    background: url(../images/ui_login.png) no-repeat -5px -42px;
+                }
+                &:nth-child(3) i{
+                    background: url(../images/ui_login.png) no-repeat -5px -76px;
+                }
+                &:nth-child(4) i{
+                    background: url(../images/ui_login.png) no-repeat -53px -30px;
+                }
+                &:nth-child(5) i{
+                    background: url(../images/ui_login.png) no-repeat -23px -30px;
+                }
+            }
+        }
+        a{
+            text-decoration: none;
+            color:#666666;
+            font-size: 12px;
+            display: block;
+            float: right;
+            margin-right: 30px;
+            i{
+                display: inline-block;
+                width: 16px;
+                height: 17px;
+                vertical-align: middle;
+                margin: -3px 5px 0 0;
+                background: url(../images/ui_login.png) -76px -30px no-repeat;
+            }
         }
     }
 }

@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<title> 好乐买 正品鞋</title>
 		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
-		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/login.css"/>
 	</head>
 	<body>
 		<!--header-->
@@ -42,17 +42,26 @@
 		<!--注册login-->
 		<div class="login">
 			<form action="" method="post">
-				<h3>欢迎注册</h3>
-				<h4><a href="login.html">登录</a></h4>
-				<input type="text" id="mobile" placeholder="请输入手机号" />
-				<input type="password" id="password" placeholder="请设置密码" />
-				<input type="text" id="code" placeholder="图形验证码" />
-				<img src="../images/89.jpg"/ class="images">
-				<input type="submit" id="register_btn" value="注册" />
-				<span class="mobiletrue"></span>
-				<span class="passwordtrue"></span>
-				<span class="mobilefalse"><i></i>请输入正确的11位手机号码</span>
-				<span class="imagesfalse"><i></i>验证码错误</span>
+				<div class="tou">
+					<h3 class="left">账号登录</h3>
+					<span>|</span>
+					<h3 class="right">扫码登录</h3>
+				</div>
+				<input type="text" id="mobile" placeholder="已验证手机/邮箱/用户名" />
+				<input type="password" id="password" placeholder="密码" />
+				<input type="submit" id="login_btn" value="登录" />
+				<span class="mobilefalse"><i></i>用户密码错误</span>
+				<a href="#" class="mima">忘记密码？</a>
+				<div class="link">
+					<p>
+						<a href="#"><i></i></a>
+						<a href="#"><i></i></a>
+						<a href="#"><i></i></a>
+						<a href="#"><i></i></a>
+						<a href="#"><i></i></a>
+					</p>
+					<a href="#"><i></i>注册有惊喜</a>
+				</div>
 			</form>
 			
 		</div>
