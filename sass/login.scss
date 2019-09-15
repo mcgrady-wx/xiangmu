@@ -155,6 +155,70 @@ header{
         right: 35px;
         display: none;
     }
+    .qr_code{
+        position: absolute;
+        top:115px;
+        left: 115px;
+        width: 172px;
+        height: 172px;
+        img{
+            width: 172px;
+            height: 172px;
+        }
+    }
+    .word{
+        width:340px;
+        height: 19px;
+        line-height: 19px;
+        text-align: center;
+        color:#666;
+        font-size: 12px;
+        position: absolute;
+        top:340px;
+    }
+    .down{
+        width: 340px;
+        height: 19px;
+        line-height: 19px;
+        text-align: center;
+        color:#666;
+        font-size: 12px;
+        position: absolute;
+        top:380px;
+        cursor: pointer;
+        .downimg{
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            margin-right: 5px;
+            vertical-align: middle;
+             background: url(../images/ui_login.png) -52px -58px no-repeat;
+        }
+        .down_code{
+            width: 158px;
+            height: 152px;
+            position: absolute;
+            top: 25px;
+            left: 100px;
+            display: none;
+        }
+        &:hover .down_code{
+            display: block;
+        }
+        
+    }
+    .prompt{
+        width: 162px;
+        height: 190px;
+        position: absolute;
+        top:115px;
+        right: 30px;
+        display: none;
+        img{
+           width: 162px;
+           height: 190px; 
+        }
+    }
     .link{
         width: 400px;
         height: 52px;
