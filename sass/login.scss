@@ -72,12 +72,14 @@ header{
             font-size: 22px;
             float: left;
             margin-left: 40px;
+            cursor: pointer;
             };
             .right{
                 font-size: 22px;
                 float: right;
                 margin-right: 40px;
                 color:#d70057;
+                cursor: pointer;
             };
             span{
                 margin-left: 35px;
@@ -204,6 +206,7 @@ header{
         }
         &:hover .down_code{
             display: block;
+            z-index: 999;
         }
         
     }
@@ -213,7 +216,7 @@ header{
         position: absolute;
         top:115px;
         right: 30px;
-        display: none;
+        opacity: 0;
         img{
            width: 162px;
            height: 190px; 

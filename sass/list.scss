@@ -1,0 +1,139 @@
+body{
+    background:#f9f9f9;
+}
+
+//产品选择
+.prodListTopIn{
+    width: 1200px;
+    height: 170px;
+    background: #f9f9f9;
+    margin: 0 auto;
+    margin-top: 10px;
+    .brandNameQ{
+        width: 1200px;
+        height: 90px;
+        .left{
+            width: 75px;
+            height: 90px;
+            float: left;
+            img{
+                width: 75px;
+                height: 90px;
+            }
+        }
+        .center{
+            width: 968px;
+            height: 90px;
+            background: white;
+            float: left;
+            dt{
+                width: 100px;
+                height: 90px;
+                float: left;
+                img{
+                    width: 72px;
+                    height: 50px;
+                    margin-top:20px;
+                    margin-left: 23px;
+                }
+            }
+            dd{
+                width: 640px;
+                height: 90px;
+                float: left;
+                h1{
+                    font-weight: bold;
+                     margin-top:20px;
+                     margin-left: 14px;
+                }
+                p{
+                    color: #999;
+                    line-height: 1.67;
+                    margin-left: 14px;
+                }
+            }
+        }
+        .right{
+            width: 157px;
+            height: 90px;
+            float: right;
+            a{
+                display: block;
+                width: 157px;
+                height: 90px;
+                background: url(../images/toallbrand.png) no-repeat 0px center;
+                &:hover{
+                    background: url(../images/toallbrand.png) no-repeat -238px center;
+                }
+            }
+        }
+    }
+    .brandTab{
+        width: 1200px;
+        height: 70px;
+        margin-top: 10px;
+        background: white;
+        li{
+            width: 200px;
+            height: 70px;
+            float: left;
+            a{
+                display: block;
+                width: 200px;
+                height: 70px;
+                position: relative;
+                img{
+                    width: 13px;
+                    height: 7px;
+                    position: absolute;
+                    left: 100px;
+                    bottom: -5px;
+                    display: none;
+                }
+            }
+            &:nth-child(1){
+                a{
+                    background:url(../images/newcateclick_1.png) no-repeat ;
+                    img{
+                        display: block;
+                    }
+                }
+            }
+            &:nth-child(2){
+                a{
+                    background:url(../images/newcate_2_2.png) no-repeat ;
+                }
+            }
+            &:nth-child(3){
+                a{
+                    background:url(../images/newcate_3.png) no-repeat ;
+                }
+            }
+            &:nth-child(4){
+                a{
+                    background:url(../images/newcate_4.png) no-repeat ;
+                }
+            }
+            &:nth-child(5){
+                a{
+                    background:url(../images/newcate_5.png) no-repeat ;
+                }
+            }
+            &:nth-child(6){
+                a{
+                    background:url(../images/newcate_6.png) no-repeat ;
+                }
+            }
+        }
+    }  
+}
+
+
+//选择列表
+.select{
+    width: 1200px;
+    height: 265px;
+    border: 1px solid;
+    margin: 0 auto;
+    margin-top: 20px;
+}

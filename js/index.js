@@ -10,8 +10,8 @@ $(function(){
 	//动画函数
 	function move(){
 		//图片淡出淡入
-		out(ads[startindex],400);
-		goin(ads[nextindex],400);
+		out(ads[startindex],500);
+		goin(ads[nextindex],500);
 		//小圆点样式改变
 		yuans[startindex].className="";
 		yuans[nextindex].className="liang";
