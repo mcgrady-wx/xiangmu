@@ -1,0 +1,79 @@
+<!-- 创建模板：显示tshirt的数据 -->
+	<script type="text/html" id="tshirt_template">
+		{{each products as prod}}
+		<a href="single.html"><li>
+			<span style="display: none;" class="pid">{{prod.pid}}</span>
+			<img src="{{prod.img}}" class="img-responsive img" alt=""/>
+			<span class="btn5 price">{{prod.price}}</span>
+			<p class="title">{{prod.title}}</p>
+		</li></a>
+		{{/each}}
+	</script>
+
+
+
+
+/* 加载其它所有的tshirt */
+	$.getJSON("/mock/tshirts.json", function(data){
+		// 渲染模板
+		let rendData = { // 准备渲染的数据
+			products : data.res_body.products
+		}
+		let html = template("tshirt_template", rendData); // 渲染
+		// 显示
+		$(".grid_2").prepend(html);
+	});
+});
+
+
+$(function(){ // ready()
+	// 加载头部
+	$.ajax({
+		url : "/html/include/header.html",
+		type : "get",
+		success : function(data){
+			$(".container").prepend(data);
+			// 加载 header.js 文件
+			$.getScript("/js/header.js");
+			// 判断是否有登录成功的用户信息
+			$.cookie.json = true;
+			let user = $.cookie("loginUser");
+			if (user) {
+				$(".register-info a").text(user.firstname)
+						.attr("href", "userinfo.html");
+			}
+		}
+	});
+	// 加载尾部
+	$.get("/html/include/footer.html", function(data){
+		$(".content_box").append(data);
+	});
+});
+
+$(function(){
+	$(".search :text").keyup(function(){
+		// jsonp 接口
+		let val = $(this).val(),
+			url = `https://suggest.taobao.com/sug?code=utf-8&q=${val}&callback=?`;
+		// jQuery 中 $.getJSON(url, function(){})
+		/*$.getJSON(url, function(data){
+			let html = "";
+			data.result.forEach(function(curr){
+				html += `<div>${curr[0]}</div>`;
+			});
+			$(".suggest_info").html(html);
+		});*/
+		$.ajax({
+			type : "get",
+			url : url,
+			dataType : "jsonp",
+			success : function(data){
+				let html = "";
+				data.result.forEach(function(curr){
+					html += `<div>${curr[0]}</div>`;
+				});
+				$(".suggest_info").html(html);
+			}
+		});
+	});
+});
