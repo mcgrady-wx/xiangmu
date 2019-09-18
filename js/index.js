@@ -109,3 +109,32 @@ $(function(){
 		}
 	})
 })
+
+//搜索栏跨域请求jsonp淘宝AIP
+$(function(){
+	$(".select1").keyup(function(){
+		let val=$(this).val(),
+			url=`https://suggest.taobao.com/sug?code=utf-8&q=${val}&callback=?`;
+		//跨域请求
+//		$.ajax({
+//			type:"get",
+//			url:url,
+//			dataType:"jsonp",
+//			success:function(data){
+//				let html="";
+//				data.result.forEach(function(curr){
+//					html+=`<div>${curr[0]}</div>`;
+//				});
+//				$(".suggest_info").html(html).show();
+//			}
+//		});
+		//另外一种方法
+		$.getJSON(url,function(data){
+				let html="";
+				data.result.forEach(function(curr){
+					html+=`<div>${curr[0]}</div>`;
+				});
+				$(".suggest_info").html(html).show();			
+		})
+	});
+})

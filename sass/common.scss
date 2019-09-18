@@ -292,6 +292,7 @@ header{
     height: 110px;
     width: 100%;
     background: #f5f5f5;
+    position: relative;
     .container{
         width: 1200px;
         height: 110px;
@@ -326,6 +327,15 @@ header{
                 border: none;
             }
         };
+        .suggest_info{
+            width:382px;
+            display: none;
+            background: white;
+            position: absolute;
+            top: 68px;
+            left: 341px;
+            z-index: 999;
+        }
         .tag{
             width: 355px;
             height: 28px;
