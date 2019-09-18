@@ -132,7 +132,6 @@ body{
 //选择列表
 .select{
     width: 1200px;
-    border: 1px solid;
     margin: 0 auto;
     margin-top: 20px;
     background: white;
@@ -435,6 +434,246 @@ body{
                         }
                         &:nth-child(10){
                             background:url(../images/color.png) no-repeat -205px -1px;
+                        }
+                        &:nth-child(11){
+                            background:url(../images/color.png) no-repeat -117px -1px;
+                        }
+                        &:nth-child(12){
+                            background:url(../images/color.png) no-repeat -176px -1px;
+                        }
+                        &:nth-child(13){
+                            background:url(../images/color.png) no-repeat -176px -35px;
+                        }
+                        &:nth-child(14){
+                            background:url(../images/color.png) no-repeat -289px -1px;
+                        }
+                        &:nth-child(15){
+                            background:url(../images/color.png) no-repeat -233px -1px;
+                        }
+                        &:nth-child(16){
+                            background:url(../images/color.png) no-repeat -30px -1px;
+                        }
+                        &:nth-child(17){
+                            background:url(../images/color.png) no-repeat -146px -1px;
+                        }
+                        &:nth-child(18){
+                            background:url(../images/color.png) no-repeat -261px -1px;
+                        }
+                        &:nth-child(19){
+                            background:url(../images/color.png) no-repeat -205px -35px;
+                        }
+                        &:nth-child(20){
+                            background:url(../images/color.png) no-repeat -289px -35px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .price_range{
+        width: 1200px;
+        height: 45px;
+        border-bottom: 1px dotted #c8c8c8;
+        position: relative;
+        h5{
+            float: left;
+            width: 100px;
+            height: 100%;
+            padding-top:15px;
+            box-sizing: border-box;
+            text-align: center;
+            font-weight: normal;
+            background: #fbfbfb;
+            color: #333;
+        }
+        .fprice{
+            width: 1100px;
+            float: left;
+            background: white;
+            .fprice-con{
+                margin-top: 8px;
+                height: 33px;
+                .filter-price{
+                    float: left;
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin: 0 10px;
+                    width: 68px;
+                    height: 26px;
+                    border: 1px solid #ececec;
+                    overflow: hidden;
+                    position: relative;
+                    .fpricetxt{
+                        position: absolute;
+                        top: 0;
+                        left: 10px;
+                        line-height: 26px;
+                        color: #999;
+                    }
+                    .fprice-num{
+                        margin: 0 2px 0 22px;
+                        width: 44px;
+                        height: 24px;
+                        border: 0;
+                        outline: none;
+                    }
+                }
+                .fgeo{
+                    float: left;
+                    display: inline-block;
+                    vertical-align: middle;
+                    line-height: 28px;
+                }
+                .filter-price{
+                    float: left;
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin: 0 10px;
+                    width: 68px;
+                    height: 26px;
+                    border: 1px solid #ececec;
+                    overflow: hidden;
+                    position: relative;
+                    .fpricetxt{
+                        position: absolute;
+                        top: 0;
+                        left: 10px;
+                        line-height: 26px;
+                        color: #999;
+                    }
+                    .fprice-num{
+                        margin: 0 2px 0 22px;
+                        width: 44px;
+                        height: 24px;
+                        border: 0;
+                        outline: none;
+                    }
+                }
+                .fpricebtn{
+                    float: left;
+                    display: inline-block;
+                    vertical-align: middle;
+                    width: 68px;
+                    height: 28px;
+                    line-height: 28px;
+                    margin: 0 10px;
+                    text-align: center;
+                    color: #656668;
+                    background-color: #ffe1ed;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+//产品列表
+.container{
+    width: 1200px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 35px;
+    .list_title{
+        width: 1200px;
+        height: 40px;
+        ul{
+            width: 1200px;
+            height: 40px;
+            border: 1px solid #d9d9d9;
+            li{
+                width: 80px;
+                height: 40px;
+                line-height: 40px;
+                float: left;
+                border-right: 1px solid #d9d9d9;
+                text-align: center;
+                a{
+                    color:#666;
+                }
+            }
+        }
+    }
+    .prolist-main{
+        width:1200px;
+        box-sizing: border-box;
+        padding-top: 30px;
+        padding-left: 24px;
+        overflow: hidden;
+        ul{
+            width: 1176px;
+            background: white;
+            li{
+                width: 270px;
+                height: 360px;
+                margin-right:24px;
+                margin-bottom: 24px;
+                float: left;
+                
+                .gl-img{
+                    width: 270px;
+                    height: 270px;
+                    a{
+                        .pdImg{
+                            width: 270px;
+                            height: 270px;
+                        }
+                    }
+                }
+                .gl-name{
+                    margin: 0 8px 6px;
+                    a{
+                        display: block;
+                        height: 20px;
+                        line-height: 20px;
+                        overflow: hidden;
+                        color: #666;
+                        font-family: 'Microsoft Yahei';
+                        font-size: 12px;
+                    }
+                }
+                .gl-price{
+                    margin-left: 8px;
+                    margin-bottom: 8px;
+                    line-height: 20px;
+                    color: #d70057;
+                    font-family: 'Microsoft Yahei';
+                    font-size: 12px;
+                    .okprice{
+                        font-family: 'Verdana';
+                        font-size: 18px;
+                        position: relative;
+                        top: 1px;
+                    }
+                    .oksale{
+                        font-family: 'SimSun';
+                        em{
+                            font-family: 'Verdana';
+                        }
+                    }
+                    .market-price{
+                        margin-left: 12px;
+                        text-decoration: line-through;
+                        color: #999;
+                        font-family: 'Verdana';
+                    }
+                }
+                .gl-sale-info{
+                    height: 17px;
+                    line-height: 17px;
+                    padding-right: 7px;
+                    margin: 0 8px;
+                    overflow: hidden;
+                    background-color: #f0f0f0;
+                    color: #666;
+                    font-family: 'Microsoft Yahei';
+                    font-size: 12px;
+                    a{
+                        color: #666;
+                        .sale-tag{
+                            display: inline-block;
+                            margin-right: 7px;
+                            padding: 0 9px;
+                            background-color: #fe3f72;
+                            color: #fff;
                         }
                     }
                 }

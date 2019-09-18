@@ -3,10 +3,15 @@
 	"res_error":"",
 	"res_body":{
 		"data":[
-			{"id":1, "title":"商品1", "price": 999, "img":"xxx1.jpg"},
-			{"id":2, "title":"商品2", "price": 888, "img":"xxx2.jpg"},
-			{"id":3, "title":"商品3", "price": 666, "img":"xxx3.jpg"},
-			{"id":4, "title":"商品4", "price": 333, "img":"xxx4.jpg"}
+			{"pid":1,"img":"../images/94.jpg","title":"Nike耐克&nbsp;男式&nbsp;COURT ROYALE休闲百搭运动板鞋","title1":"COURT ROYALE休闲百搭运动板鞋","okprice": 299,"oksale":6.7,"marketprice":499,"gl-sale-info":"阿迪达斯 耐克 三叶草 neo 男装男鞋特惠"},
+			{"pid":2,"img":"../images/95.jpg","title":"Nike耐克&nbsp;男式&nbsp;Kyrie Flytrap 2欧文5简版实战篮球鞋 ","title1":"Kyrie Flytrap 2欧文5简版实战篮球鞋","okprice": 399,"oksale":6.7,"marketprice":599,"gl-sale-info":"阿迪达斯 耐克 三叶草 neo 男装男鞋特惠"},
+			{"pid":3,"img":"../images/96.jpg","title":"Nike耐克&nbsp;女式&nbsp;COURT休闲百搭运动板鞋","title1":"COURT休闲百搭运动板鞋","okprice": 299,"oksale":6.7,"marketprice":449,"gl-sale-info":"NIKE 女装女鞋特惠"},
+			{"pid":4,"img":"../images/97.jpg","title":"Nike耐克&nbsp;中性&nbsp;NOVICE (PS) 幼童休闲鞋","title1":"NOVICE (PS) 幼童休闲鞋","okprice": 319,"oksale":6.8,"marketprice":469,"gl-sale-info":"NIKE 女装女鞋特惠"},
+			{"pid":5,"img":"../images/98.jpg","title":"Nike耐克&nbsp;男式&nbsp;ZOOM 2K复古老爹休闲跑步鞋","title1":"ZOOM 2K复古老爹休闲跑步鞋","okprice": 469,"oksale":6.7,"marketprice":699,"gl-sale-info":"阿迪达斯 耐克 三叶草 neo 男装男鞋特惠"},
+			{"pid":6,"img":"../images/99.jpg","title":"Nike耐克&nbsp;男式&nbsp;LEBRON XVI LOW EP气垫篮球鞋","title1":"LEBRON XVI LOW EP气垫篮球鞋","okprice": 869,"oksale":6.7,"marketprice":1299,"gl-sale-info":"阿迪达斯 耐克 三叶草 neo 男装男鞋特惠"},
+			{"pid":7,"img":"../images/100.jpg","title":"Nike耐克&nbsp;男式&nbsp;AIR ZOOM PEGASUS 36运动舒适跑步鞋","title1":"AIR ZOOM PEGASUS 36运动舒适跑步鞋","okprice": 599,"oksale":6.7,"marketprice":899,"gl-sale-info":"阿迪达斯 耐克 三叶草 neo 男装男鞋特惠"},
+			{"pid":8,"img":"../images/101.jpg","title":"Nike耐克&nbsp;男式&nbsp;ZOOM WINFLO 6运动跑步鞋","title1":"ZOOM WINFLO 6运动跑步鞋","okprice": 499,"oksale":6.7,"marketprice":749,"gl-sale-info":"阿迪达斯 耐克 三叶草 neo 男装男鞋特惠"}
+			
 		]
 	}
 }
