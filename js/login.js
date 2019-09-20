@@ -34,3 +34,20 @@ $(function(){
 		yundong($(".prompt")[0],{opacity:0},800);
 	})
 })
+
+//用户登录
+$(function(){
+	$("form").submit(function(){
+		$.post("/xiangmu/php/login.php",$(this).serialize(),function(data){
+			if (data.res_code===0) {
+				// 保存登录成功的用户信息到 cookie 中
+				$.cookie.json=true;// 自动调用JSON.stringify()、JSON.parse()来转换JS值与JSON字符串
+				$.cookie("loginUser", data.res_body, {path:"/"});
+				location = "/xiangmu/index.html";//跳转到首页
+			} else{
+				$(".mobilefalse").show();
+			}
+		},"json");
+		return false;
+	})
+})
