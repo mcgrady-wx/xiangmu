@@ -26,8 +26,8 @@
 		<div class="loginbar">
 			<div>
 				<ul class="login">
-					<li><a href="html/login.html">登陆</a></li>
-					<li class="noborder"><a href="html/register.html">注册</a></li>
+					<li class="border" style="overflow: hidden;"><a href="../html/login.html">登陆</a></li>
+					<li class="noborder"><a href="../html/register.html">注册</a></li>
 				</ul>
 				
 				<div class="list1">
@@ -115,7 +115,7 @@
 	<nav>
 		<div class="nav1">
 			<ul>
-				<li><a href="index.html">首页</a></li>
+				<li><a href="../index.html">首页</a></li>
 				<li><a href="index.html"></a></li>
 				<li id="yun"><a href="index.html">运动生活</a></li>
 				<li id="xiu"><a href="index.html">休闲服饰</a></li>
@@ -656,7 +656,7 @@
 				<h1>我的购物车</h1>
 				<span style="color:#d70057">	“北京地区”的普通快递包裹于9月13日停止发货,预计10月2日左右陆续恢复。详见网页公告 </span>
 			</div>
-			<div class="nocart">
+			<div class="nocart" style="display: block;">
 				<img src="../images/nullcart.png" class="nullcart">
 				<div class="nullcartright">
 			    	<p>购物车内无商品,去逛逛吧！</p>
@@ -664,7 +664,7 @@
 			    	<a href="#">我的收藏</a>
     			</div>
 			</div>
-			<table border="1" class="cart_table">
+			<table border="1" class="cart_table" style="display: none;">
 		    	<thead>
 		    		<tr>
 		    			<td><label><input type="checkbox" class="ck_all">全选</label></td>
@@ -683,10 +683,24 @@
 		    	<tfoot>
 		    		<tr>
 		    			<td>合计</td>
-		    			<td colspan="7">0.00</td>
+		    			<td colspan="7" class="total">0.00</td>
 		    		</tr>
 		    	</tfoot>
     		</table>
+    	<script type="text/html" id="cart_template">
+	    	{{each products as prod}}
+		    	<tr>
+		    		<td><input type="checkbox" class="ck_prod"></td>
+		    		<td>{{prod.pid}}</td>
+		    		<td><img src="{{prod.img}}"></td>
+		    		<td>{{prod.title}}</td>
+		    		<td>{{prod.price}}</td>
+		    		<td><button class="minus">-</button><input type="text" value="{{prod.amount}}" size="2" class="amount"><button class="add">+</button></td>
+		    		<td class="sub">{{(prod.amount*prod.price).toFixed(2)}}</td>
+		    		<td><a href="javascript:void(0);" class="del">删除</a></td>
+		    	</tr>
+	    	{{/each}}
+   		 </script>
 		</div>
 	</div>
 	<!--返回顶部按钮-->
@@ -763,6 +777,8 @@
 		</div>
 	</footer>
 	<script src="../lib/jquery/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../lib/jquery_plugins/jquery.cookie.js"></script>
+	<script src="../lib/artTemplate/template.js"></script>
 	<script src="../js/cart.js" type="text/javascript" charset="utf-8"></script>
 	<script src="../js/common.js" type="text/javascript" charset="utf-8"></script>
 

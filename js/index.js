@@ -138,3 +138,17 @@ $(function(){
 		})
 	});
 })
+//读取用户信息，修改登陆栏信息
+$(function(){
+	$.cookie.json=true;
+	let loginuser=$.cookie("loginUser");
+	$(".border>a").text(loginuser.email);
+	$(".noborder>a").text("退出");
+	//读取商品信息显示总价
+	let _products=$.cookie("products");
+	let sum=0;
+	$.each(_products, function(index,element) {
+		sum+=Number(Number(element.price)*element.amount);
+	});
+	$(".cart1>b").text("("+sum+")");
+})
